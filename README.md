@@ -1,10 +1,11 @@
 
 # M3LTSCANNER
 
-#### M3LTSCANNER is a simple subdomain scanner written in python3. Refer below for usage
+#### M3LTSCANNER is a simple subdomain scanner written in python3. Refer below for usage. 
 
 ![Logo](https://github.com/0xM3LT/m3ltscanner/assets/139600798/e34e2d98-d65f-49da-a82e-7faef94ef300)
 
+##### M3LTSCANNER will save all of your found subdomains to a file in the same directory as m3ltscan.py
 
 ### Usage/Examples
 
