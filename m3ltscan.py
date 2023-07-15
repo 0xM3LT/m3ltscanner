@@ -43,11 +43,17 @@ start_message = """
 
 """
 
-
+warning = """
+__________________________________________________________________________
+When using M3LTScan PLEASE DO NOT USE HTTP | HTTPS in your domain input
+__________________________________________________________________________
+"""
 
 
 
 def scan_subdomains(domain):
+
+    
     global q
     
     while True:
@@ -75,6 +81,7 @@ def custom_messages():
     print(f"{RED}"+message_line)
     print(f"{CYAN}"+start_message)
     print(f"{RED}"+message_line)
+    print(f"{RED}"+warning)
     testtext()
 
 def testtext():
